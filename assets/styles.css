@@ -1,0 +1,6 @@
+.carousel-image {
+      height: 400px; /* Altura fija para el carrusel */
+      object-fit: cover; /* Ajusta la imagen sin deformar */
+      object-position: center center; /* Centra la imagen */
+      width: 100%; /* Que ocupe todo el ancho */
+    }
