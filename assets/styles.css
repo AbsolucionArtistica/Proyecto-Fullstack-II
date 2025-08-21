@@ -3,4 +3,23 @@
       object-fit: cover; /* Ajusta la imagen sin deformar */
       object-position: center center; /* Centra la imagen */
       width: 100%; /* Que ocupe todo el ancho */
-    }
+}
+.header {
+    color: #ee6e73;
+    font-weight: 300;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto; /* Permite que main crezca */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
